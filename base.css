@@ -1,0 +1,286 @@
+/* Produced by Jiwan Jeong (jiwanjeong@gmail.com) */
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Sarina);
+
+body {
+	margin: 0;
+	background-color: #404040 ;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.5em;
+}
+
+div.container {
+	width: 1000px;
+	margin: 2em auto;
+	padding: 2em;
+}
+
+div.profile {
+	float: left;
+	color: White;
+	width: auto;
+	padding: 2em 2em;
+	text-align: center;
+	vertical-align: center;
+}
+
+div.wrap { 
+	float: left;
+	width: 600px;
+	background-color: white;
+	border-radius: 2em;
+	padding: 2em; 
+}
+
+@media only screen and (max-device-width:640px) {
+	body {
+		font-size: 0.9em;
+	}
+	
+	div.container {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	div.profile {
+		float: none;
+		width: auto;
+		padding: 12px;
+	}
+
+	div.wrap { 
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 12px; 
+		border-radius: 0;
+	}
+
+	img.profile {
+		width: 120px;
+	}
+
+}
+
+li { 
+	margin-left: -1em;
+}
+
+a:link, a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+	/* color:#800000; */
+	/* background-color: #E3E0D1;*/
+	text-decoration: underline;
+}
+
+
+
+.time {
+	float: right;
+	color: DarkGray;
+	font-style: italic;
+}
+
+.publication .title {
+	font-weight: bold;
+}
+
+.publication .authors {
+	color: DarkSlateGray;
+}
+
+.publication .authors .me {
+	font-weight: bold;
+}
+
+.publication .venue {
+	font-style: italic;
+}
+
+.publication .venue .abbr {
+	font-weight: bold;
+}
+
+.publication .tags {
+	/* text-transform: lowercase; */
+}
+
+.publication span.type {
+	border: solid 1px; 
+	padding: 1px 3px;	
+	font-size: smaller;
+}
+
+span.award {
+	border-color: Gold;
+	border: solid 1px;
+	font-size: smaller; 
+	color: Gold;
+	padding: 1px 3px;
+}
+
+.publication span.award {
+	background-color: Gold;
+	font-size: smaller; 
+	color: Black;
+	padding: 2px 4px;
+}
+
+.publication span.toappear {
+	background-color: Orange;
+	font-size: smaller; 
+	color: White;
+	padding: 2px 4px;
+}
+
+.publication a.file {
+	color: White !important;
+	background-color: SlateGray;
+	font-size: smaller; 
+	text-decoration: none;
+	padding: 2px 4px;
+}
+
+/* Patents */
+.patent .title {
+	font-weight: bold;
+}
+
+.patent .authors {
+	color: DarkSlateGray;
+}
+
+.patent .authors .me {
+	font-weight: bold;
+}
+
+.patent .venue {
+	font-style: italic;
+}
+
+.patent .venue .abbr {
+	font-weight: bold;
+}
+
+.patent .tags {
+	/* text-transform: lowercase; */
+}
+
+
+/* Media */
+.media .title {
+	font-weight: bold;
+}
+
+.media .venue {
+	font-style: italic;
+}
+
+.media .venue .abbr {
+	font-weight: bold;
+}
+
+.media .tags {
+	/* text-transform: lowercase; */
+}
+
+/* Research Activieis */
+.activity .title {
+	font-weight: bold;
+}
+
+.activity .speakers {
+	color: DarkSlateGray;
+}
+
+.activity .speakers .me {
+	font-weight: bold;
+}
+
+.activity .venue {
+	font-style: italic;
+}
+
+.activity .venue .abbr {
+	font-weight: bold;
+}
+
+.activity .tags {
+	/* text-transform: lowercase; */
+}
+
+
+/* logo */
+
+.kaist {
+	content: url(./KAIST_black.svg);
+	vertical-align: baseline;
+	height: 0.75em;	
+}
+
+.kaist0 {
+	content: url(./KAIST_white.svg);
+	vertical-align: baseline;
+	height: 0.75em;	
+}
+
+.netmarble {
+	content: url(./netmarble.svg);
+	vertical-align: baseline;
+	height: 0.75em;
+}
+
+.cj {
+	position: relative;
+	content: url(./CJ2.svg);
+	height: 2.2em;
+	vertical-align: -.5em;
+	padding: 0;
+	margin: 0;
+}
+
+.cjenm {
+	content: url(./CJ.svg);
+	height: 1em;
+	vertical-align: text-bottom;
+	padding: 0;
+	margin: 0;	
+}
+
+.cu {
+	font-family: Palatino, 'Palatino Linotype';
+}
+
+.mverse {
+	font-family: 'Titillium Web', sans-serif;
+	font-style: normal;
+	color: DimGray; 
+	text-decoration: none;
+}
+
+.bldg-number {
+	font-family: "Nunito", sans-serif;
+}
+
+
+
+
+
+
+
+.Sarina {
+	font-family: 'Sarina', cursive;
+}
+
+
+
+
+
